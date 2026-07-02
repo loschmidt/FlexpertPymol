@@ -1,0 +1,6 @@
+checkpoint_path: /scratch/project_465000660/ProteinInvBench/flex_model_weights/finetuned_model.pth #finetuned_model_BS8.pth
+data_jsonl_name: Calpha_bfactor_chainset_averaged_normalized.jsonl
+num_labels_bfact: 1
+half_precision: False #mixed_precision
+gumbel_temperature: 0.2
+flex_loss_weight: 1.0

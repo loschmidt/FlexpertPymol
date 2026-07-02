@@ -1,0 +1,6 @@
+huggingface:
+  HF_HOME: /scratch/project_465001401/Flexpert-nD/HF_cache
+wandb:
+  project: 'Flexpert-nD-Karolina'
+gpus:
+  cuda_visible_device: 'cpu'

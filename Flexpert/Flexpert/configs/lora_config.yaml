@@ -1,0 +1,9 @@
+lora_rank: 4
+lora_init_scale: 0.01
+lora_modules: ".*SelfAttention|.*EncDecAttention"
+lora_layers: "q|k|v|o"
+trainable_param_names: ".*layer_norm.*|.*lora_[ab].*"
+lora_scaling_rank: 1
+
+# lora_modules and lora_layers are speicified with regular expressions
+# see https://www.w3schools.com/python/python_regex.asp for reference

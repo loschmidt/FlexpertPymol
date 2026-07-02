@@ -1,0 +1,13 @@
+augment_eps: 0.0
+num_encoder_layers: 3
+hidden_dim: 128
+hidden: 128
+k_neighbors: 30
+num_letters: 33
+num_decoder_layers: 3
+vocab: 33
+dropout: 0.1
+smoothing: 0.1
+proteinmpnn_type: 0
+init_flex_features: 1
+starting_checkpoint_path: 'vanilla_mpnn_weights/best-epoch=99-recovery=0.485.ckpt'

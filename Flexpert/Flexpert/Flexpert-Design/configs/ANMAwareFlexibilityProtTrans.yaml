@@ -1,0 +1,12 @@
+checkpoint_path: ../models/weights/flexpert_3d_weights.bin
+data_jsonl_name: /NEWcath_ANM_gt_flex_annotated.jsonl #/debug_cath_ANM_gt_flex_annotated.jsonl #/cath_ANM_gt_flex_annotated.jsonl
+half_precision: False #mixed_precision
+gumbel_temperature: 0.2
+num_labels: 1
+add_pearson_loss: False
+add_sse_loss: False
+adaptor_architecture: 'conv'
+enm_embed_dim: 128
+enm_att_heads: 8
+num_layers: 3
+kernel_size: 5

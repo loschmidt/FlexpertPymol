@@ -1,0 +1,11 @@
+pdb_dir: "data/PDBs"
+preprocessed_dir: "data/custom_dataset"
+backbones_dataset_path: "data/custom_dataset/chain_set.jsonl" #or provide a path to a csv file with the format: pdb_name, pdb_path
+out_enm_dataset_path: "data/custom_dataset/{}_dataset.jsonl" #the {enm} part will be replaced by ANM or GNM
+fasta_dataset_path: "data/custom_dataset/fasta_dataset.fasta"
+pdb_codes_path: "data/atlas/2022_06_13_ATLAS_pdb.txt"
+atlas_out_dir: "data/atlas/analyses"
+atlas_labels_path: "data/custom_dataset/rmsf_atlas_data_prottransready.txt"
+precomputed_flexibility_profiles_dir: "data/atlas/precomputed_flexibility_profiles"
+flexpert_3d_predictions_path: "data/atlas/precomputed_flexibility_profiles/atlas_test_3D_predictions.txt"
+flexpert_seq_predictions_path: "data/atlas/precomputed_flexibility_profiles/atlas_test_SEQ_predictions.txt"
