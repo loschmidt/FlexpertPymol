@@ -19,6 +19,7 @@ The most recent implementation suitable for standalone installation of Flexpert 
 - PyMOL (with Python and Qt support)
 - Python 3.8+
 - CUDA-capable GPU (optional)
+- Plugin was tested mainly on systems running Linux-based OS. Windows remains untested.
 
 A GPU is not required, but it can significantly speed up inference. In testing, CPU-based inference took approximately one minute per protein chain.
 
