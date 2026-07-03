@@ -36,7 +36,9 @@ REQUIRED_PACKAGES = [
     "sentencepiece",
     "prody",
     "evaluate",
-    "Pillow==9.1.0"
+    "Pillow==9.1.0",
+    "tiktoken",
+    "protobuf"
 ]
 
 IMPORT_MAP = {

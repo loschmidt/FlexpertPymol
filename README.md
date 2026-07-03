@@ -30,7 +30,7 @@ A GPU is not required, but it can significantly speed up inference. In testing, 
 Clone this repository into your PyMOL plugins directory:
 
 ```bash
-git clone <repository-url> ~/.pymol/startup/Flexpert
+git clone https://github.com/loschmidt/FlexpertPymol.git ~/.pymol/startup/Flexpert
 ```
 
 ### Option 2: Install from Plugin Manager
@@ -38,6 +38,8 @@ git clone <repository-url> ~/.pymol/startup/Flexpert
 Download the `.tar.gz` archive from **(TODO: link)** and install it via:
 
 `Plugin → Plugin Manager → Install New Plugin → Choose File...`
+
+Then select the downloaded `.tar.gz` file without extracting it.
 
 ### Post-Installation Setup
 
@@ -135,6 +137,7 @@ Run `check_installation()` logic manually (or re-trigger install) — it reports
 
 The ProtT5 download is large and runs as a separate subprocess. If it stalls, cancel PyMOL, delete the cache folder as above, and retry with a stable connection — partial downloads are not resumed automatically.
 
+Running pymol from terminal may provide additional useful debugging information.
 
 ## Project Structure
 
