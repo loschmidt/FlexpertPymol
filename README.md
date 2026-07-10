@@ -161,6 +161,3 @@ Running pymol from terminal may provide additional useful debugging information.
 
 - [Flexpert Data Server](https://data.ciirc.cvut.cz/public/projects/2025Flexpert/)
 
-***
-
-Would you like me to also draft a short "Troubleshooting" or "FAQ" section — e.g., for cases where the 40 GB download stalls or GPU detection fails?
